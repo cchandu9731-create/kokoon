@@ -12,7 +12,7 @@ const { protect, adminOnly } = require('../middleware/authMiddleware');
 // Keys readable without auth (safe/public values only)
 const PUBLIC_KEYS = [
   'emailjs', 'announcement', 'cat_banners',
-  'hero_slides', 'about', 'razorpay_public'
+  'hero_slides', 'about', 'razorpay_public', 'homepage_reviews', 'newsletter_subscribers'
 ];
 
 // GET /api/settings/:key — public keys open, rest admin only
